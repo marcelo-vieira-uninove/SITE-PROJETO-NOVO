@@ -1,0 +1,74 @@
+.contato{
+    .superior{
+
+        .titulo{
+            color: #ffc200;
+            font-size: 3em;
+            font-weight: 600;
+            line-height: 1;
+            padding-top: 70px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: "Epilogue", sans-serif;
+        }
+
+        .content{
+            width: 95%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 80px;
+
+            .content-texto1{
+                width: 26%;
+
+                h2{
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                    font-family: 'Roboto';
+                }
+
+                p{
+                    color: white;
+                    font-size: 18px;
+                    font-family: system-ui;
+                    line-height: 25px;
+
+                    code{
+                        font-weight: bold;
+                        font-family: 'Roboto';
+                    }
+                }
+            }
+
+            .content-texto2{
+                width: 26%;
+
+                h2{
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                    font-family: "Roboto";
+                }
+
+                p{
+                    color: white;
+                    font-size: 18px;
+                    font-family: system-ui;
+                    line-height: 25px;
+                }
+
+                .facebook{
+                    width: 35px;
+                    margin-top: 10px;
+                    margin-right: 25px;
+                }
+
+                .instagram{
+                    width: 35px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
