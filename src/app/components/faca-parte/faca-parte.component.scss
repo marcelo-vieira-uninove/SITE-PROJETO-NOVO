@@ -1,0 +1,302 @@
+.faca-parte{
+
+        .Amarelo-Superior-Esquerdo{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 310px;
+            height: 245px;
+        }
+
+        .Amarelo-Central-Esquerdo{
+            position: absolute;
+            left: 0;
+            top: 373px;
+            height: 395px;
+            width: 58px;
+        }
+
+        .Azul-Central-Esquerdo1{
+            position: absolute;
+            left: 0;
+            top: 649px;
+            width: 171px;
+        }
+
+        .Azul-Central-Esquerdo2{
+            position: absolute;
+            left: 0;
+            top: 765px;
+            width: 220px;
+            height: 550px;
+        }
+
+        .Azul-Central-Direito{
+            position: absolute;
+            right: 0;
+            top: 220px;
+            height: 400px;
+            width: 140px;
+        }
+
+        .Amarelo-Direito{
+            position: absolute;
+            right: 0;
+            top: 536px;
+            height: 265px;
+            width: 179px;
+        }
+
+        .Img-Desenho-Rodape{
+            position: absolute;
+            right: 0;
+            top: 1295px;
+            width: 550px;
+        }
+
+        .superior{
+            display: inline-flex;
+
+            .mao{
+                margin-top: 45px;
+                padding-right: 15px;
+                width: 120px;
+                height: 115px;
+            }
+
+            .titulo{
+                color: #0256ac;
+                font-size: 86px;
+                font-weight: 600px;
+                line-height: 1;
+                padding-top: 60px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-family: "Epilogue", sans-serif;
+            }
+        }
+
+        .sub-texto1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            p{
+                text-align: center;
+                font-size: 19px;
+                line-height: 25px;
+            }
+        }
+
+        .quadro-verde{
+            background-image: url(/assets/img/Quadro-Central.png);
+            background-repeat: no-repeat;
+            width: 800px;
+            height: 300px;
+            padding-left: 10px;
+            background-size: 100% 100%;
+
+            h1{
+                font-size: 44px;
+                margin-left: 20px;
+                margin-top: 55px;
+                font-weight: 700;
+                font-family: "Epilogue";
+                color: #0256ac;
+            }
+
+            p{
+                font-size: 18px;
+                left: 125px;
+                top: 115px;
+                color: #ffffff;
+                text-align: center;
+            }
+
+            .content-botoes{
+                display: flex;
+
+                .guarda-botoes{
+                    justify-content: space-around;
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    align-items: center;
+
+                    .botao{
+                        width: 295px;
+                        height: 45px;
+                        border-radius: 13px;
+                        background-color: #ee602d;
+                        border-color: #ee602d;
+                        color: white;
+                        display: flex;
+                        font-family: 'Epilogue';
+                        align-items: center;
+                        font-size: 18px;
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        margin-top: 10px;
+
+                    .img{
+                        width: 35px;
+                        height: 40px;
+                        right: 27px;
+                        padding-bottom: 7px;
+                        }    
+                    }
+                }
+            }
+        }
+        .texto2{
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            p{
+                text-align: center;
+                font-size: 19px;
+                line-height: 25px;
+
+                code{
+                    color: #0256ac;
+                    font-weight: 700;
+                    font-family: 'Epilogue';
+                }
+            }
+        }
+
+        .content-impacto{
+
+            width: 100%;
+            display: flex;
+            /* justify-content: start; */
+            flex-direction: column;
+            
+            .imp1{
+                display: flex;
+                justify-content: center;
+                height: 115px;
+
+                .img1{
+                    width: 120px;
+                    padding-right: 60px;
+                }
+
+                .img2{
+                    width: 115px;
+                    padding-left: 30px;
+                }
+            }
+
+            .imp2{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+
+                .img3{
+                    width: 250px;
+                    margin-right: 80px;
+                    height: 100px;
+                    margin-top: 22px;
+                }
+
+                .img4{
+                    width: 101px;
+                    margin-right: 80px;
+                    height: 115px;
+                }
+
+                .img5{
+                    width: 250px;
+                    height: 100px;
+                }
+            }
+
+            .imp3{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+
+                .img6{
+                    width: 230px;
+                    margin-right: 58px;
+                    height: 100px;
+                    margin-top: 22px;
+                }
+
+                .img7{
+                    width: 250px;
+                    margin-left: 0px;
+                    margin-right: 45px;
+                    height: 115px;
+                    margin-top: 5px;
+                }
+                
+
+                .img8{
+                    width: 180px;
+                    height: 75px;
+                    margin-top: 22px;
+                }
+            }
+
+            .imp4{
+                display: flex;
+                justify-content: center;
+                height: 150px;
+                margin-top: 25px;
+
+                .img9{
+                    width: 250px;
+                    margin-right: 40px;
+                    height: 100px;
+                    margin-top: 22px;
+                }
+
+                .img10{
+                    width: 140px;
+                    margin-right: 38px;
+                    margin-left: 40px;
+                    height: 140px;
+                }
+
+                .img11{
+                    width: 200px;
+                    margin-left: 35px;
+                    height: 60px;
+                    margin-top: 44px;                  
+                }
+            }
+        }
+
+        .titulo2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 34px;
+
+            h1{
+                color: #ee602d;
+                font-size: 72px;
+                padding-top: 75px;
+                text-align: center;
+                font-family: "Epilogue", sans-serif;
+                width: 54%;
+                line-height: 90px;
+                margin-left: 150px;
+                height: 170px;
+            }
+
+            p{
+                margin-left: 285px;
+                font-size: 19px;
+                color: #00bdac;
+                font-weight: 900;
+                font-family: "Epilogue";
+
+                code{
+                    color: #0256ac;
+                    font-family: 'Roboto';
+                }
+            }
+        }
+    }
