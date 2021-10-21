@@ -1,0 +1,180 @@
+.onde-assistir{
+
+    .menina
+    {
+        position: absolute;
+        left: 0;
+        top: 122px;
+        width: 184px;
+    }
+
+    .quadro-azul
+    {
+        position: absolute;
+        left: 0;
+        top: 291px;
+        width: 184px;
+    }
+
+    .desenho-amarelo
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        width: 860px;
+    }
+
+    .superior
+    {
+        display: inline-flex;
+        padding-bottom: 34px;
+
+        img
+        {
+            margin-top: 35px;
+            padding-right: 5px;
+            width: 125px;
+            height: 125px;
+        }
+
+        .titulo
+        {
+            color: #0256ac;
+            font-size: 4em;
+            font-weight: 600;
+            line-height: 1;
+            padding-top: 70px;
+            padding-bottom: 20px; 
+            text-align: center;
+            font-family: 'Epilogue', sans-serif;
+        }
+    }
+
+    .logos
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+
+        .linha1
+        {
+            width: 850px;
+            margin-bottom: 10px;
+        }
+
+        .linha2
+        {
+            width: 885px;
+        }
+
+        .content-logos
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .globoplay
+            {
+                width: 189px;
+                padding-right: 30px;
+            }
+
+            .gnt
+            {
+                width: 92px;
+            }
+
+            .cultura
+            {
+                width: 62px;
+                height: 61px;
+                padding-right: 30px;
+            }
+
+            .now
+            {
+                width: 92px;
+            }
+
+            .google-play
+            {
+                width: 189px;
+            }
+
+            .youtube
+            {
+                width: 111px;
+            }
+
+            .vivo-play
+            {
+                width: 169px;
+            }
+
+            .itunes
+            {
+                width: 130px;
+            }
+        }
+    }  
+    
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .content-topo
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 76%;
+            margin-bottom: 10px;
+
+            .img
+            {
+                width: 95px;
+            }
+
+            p
+            {
+                color: white;
+                font-size: 20px;
+                width: 64%;
+                margin-top: 21px;
+                margin-left: 25px;
+            }
+
+        }
+
+        .content-centro
+        {
+            margin-bottom: 10px;
+            .img
+            {
+                width: 639px;    
+            }
+        }
+
+        .content-bottom
+        {
+            margin-bottom: 70px;
+
+            button
+            {
+                height: 55px;
+                width: 270px;
+                border-radius: 14px;
+                background-color: #ee602d;
+                border-color: #ee602d;
+                color: white;
+                font-size: 20px;
+                font-family: 'Roboto';
+                font-weight: bold;
+                margin-left: 60px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
